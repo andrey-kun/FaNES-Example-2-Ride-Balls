@@ -1,8 +1,5 @@
 #!/bin/sh
-NAME_PROJECT="Example 2"
-MAPPER="NROM"
-MAPPER_CONF="128-H"
-LIBRARIES_DEPEDENCY="random FaNES nes"
+PATH=".:$PATH" . project.cfg
 
 rm build/ -R >> /dev/null 2>&1
 mkdir build/
