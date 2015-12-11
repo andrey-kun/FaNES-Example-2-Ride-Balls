@@ -1,3 +1,2 @@
 nes.lib (cc65) (remove module crt0.o) [ar65 d nes.lib crt0.o]
 FaNES.lib
-random.lib

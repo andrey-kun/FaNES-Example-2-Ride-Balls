@@ -1,5 +1,4 @@
 #include <FaNES.h>
-#include <random.h>
 
 #define BALLS_MAX 64
 
