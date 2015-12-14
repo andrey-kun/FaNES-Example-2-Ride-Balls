@@ -16,4 +16,4 @@ do
 	ca65 $asmFile -o build/`basename -s .s $asmFile`.o
 done
 
-ld65 -C mappers/"$MAPPER"/"$MAPPER"-"$MAPPER_CONF".cfg -o out/"$NAME_PROJECT".nes `find build/ -type f -name "*.o"` `echo $LIBRARIES_DEPEDENCY | sed 's/[^ ]*/libraries\/&.lib/g'`
+ld65 -C cartboards/"$MAPPER"/"$MAPPER_CONF".cfg -o out/"$NAME_PROJECT".nes `find build/ -type f -name "*.o"` `echo $LIBRARIES_DEPEDENCY | sed 's/[^ ]*/libraries\/&.lib/g'`
