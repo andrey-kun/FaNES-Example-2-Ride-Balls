@@ -1,0 +1,4 @@
+build/*
+includes/FaNES.h
+libraries/FaNES.lib
+libraries/nes.lib
