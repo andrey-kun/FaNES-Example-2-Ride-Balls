@@ -16,7 +16,7 @@ static uchar ballSpeedVertical[BALLS_MAX];
 
 static uchar i = 0, x = 0, y = 0, h = 0, v = 0;
 
-int main() {
+void main() {
     uchar randomDirectionSeed;
     setPaletteColor(PALETTE_BACKGROUND_1 + 0, 0x0F);
     setPaletteSprites(paletteSprites);
